@@ -1,3 +1,12 @@
+<?php
+
+error_reporting(E_ALL ^ E_DEPRECATED);
+header("Content-Type: text/html; Charset=UTF-8");
+date_default_timezone_set('America/Mexico_City');
+
+$id = (isset($_GET['id'])) ? $_GET['id'] : '';
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,14 +17,47 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+    <div class="containe-fluid">
+        <div id="app">
+            <div class="row m-0 p-0">
+                <div class="col-md-12">
+                    <!-- MENÚ -->
+                    <?php include 'assets/inc/menu.inc'; ?>
+                    <!-- MENÚ -->
 
+                    <!-- CONTENIDO -->
+                    <div class="container animate__animated animate__fadeIn">
+                        <?php
+                        switch ($id) {
+                            case 'inicio':
+                                include 'assets/inc/inicio.inc';
+                                break;
+
+                            case 'conocenos':
+                                include 'assets/inc/conocenos.inc';
+                                break;
+
+                            case 'sesion':
+                                include 'assets/inc/sesion.inc';
+                                break;
+
+                            case 'resitro':
+                                include 'assets/inc/resitro.inc';
+                                break;
+                            
+                            default:
+                                include 'assets/inc/inicio.inc';
+                                break;
+                        }
+                        ?>
+                    </div>
+                    <!-- CONTENIDO -->
+                </div>
             </div>
         </div>
     </div>
     <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

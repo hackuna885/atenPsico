@@ -1,4 +1,122 @@
-.bg-colorX {
-  background: #45a182; }
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
 
-/*# sourceMappingURL=style.css.map */
+  @media (pointer: coarse) and (hover: none) {
+    header.movil {
+      background-image: url("../img/headerParalax.jpg");
+  
+      /* Full height */
+      height: 100%;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  
+    header.movil video {
+      display: none;
+    }
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("../img/headerParalax.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pS0 {
+    /* The image used */
+    background-image: url("../img/headerParalax.jpg");
+  
+    /* Full height */
+    height: 200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pS1 {
+    /* The image used */
+    background-image: url("../img/s1.jpg");
+  
+    /* Full height */
+    height: 200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pS2 {
+    /* The image used */
+    background-image: url("../img/s2.jpg");
+  
+    /* Full height */
+    height: 200px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bkgroundX {
+    /* The image used */
+    background-image: url("../img/css-pattern-by-magicpattern.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+  }
