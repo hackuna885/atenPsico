@@ -20,13 +20,13 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
     <div class="containe-fluid">
         <div id="app">
             <div class="row m-0 p-0">
-                <div class="col-md-12">
+                <div class="col-md-12 m-0 p-0">
                     <!-- MENÚ -->
                     <?php include 'assets/inc/menu.inc'; ?>
                     <!-- MENÚ -->
 
                     <!-- CONTENIDO -->
-                    <div class="container animate__animated animate__fadeIn">
+                    <div class="containe animate__animated animate__fadeIn">
                         <?php
                         switch ($id) {
                             case 'inicio':
