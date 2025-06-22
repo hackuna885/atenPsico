@@ -48,4 +48,8 @@ header .overlay {
   background-repeat: no-repeat;
   background-size: cover; }
 
+/* line 65, ../scss/style.scss */
+.anuncio {
+  background-color: rgba(255, 255, 255, 0.5); }
+
 /*# sourceMappingURL=style.css.map */
