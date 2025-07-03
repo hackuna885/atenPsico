@@ -8,7 +8,7 @@
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
-                    <h1 class="display-5" style="margin-top: 500px;">ÁREA DE ATENCIÓN</h1>
+                    <h1 class="display-5" style="margin-top: 480px;">ÁREA DE ATENCIÓN</h1>
                     <h2 class="lead mb-3">PSICOLÓGICA DE LA <b>UTFV</b></h2>
                 </div>
             </div>
@@ -19,7 +19,7 @@
 
 <!-- Inicia Sección -->
 <div class="containe-fluid">
-    <div class="row">
+    <div class="row m-0 p-0">
         <div class="col-md-12 parallax">
             <div class="container">
                 <section class="my-5">

@@ -52,6 +52,7 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
                         ?>
                     </div>
                     <!-- CONTENIDO -->
+                     <?php include 'assets/inc/footer.inc'; ?>
                 </div>
             </div>
         </div>

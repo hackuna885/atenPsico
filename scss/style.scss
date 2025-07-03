@@ -65,4 +65,12 @@ header .overlay {
 .anuncio {
     background-color: rgba(255, 255, 255, 0.5);
 }
+
 // anuncios index
+
+// centrado Perfecto
+.centrado-h-v {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

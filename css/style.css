@@ -1,4 +1,3 @@
-/* line 4, ../scss/style.scss */
 header {
   position: relative;
   background-color: black;
@@ -7,7 +6,6 @@ header {
   width: 100%;
   overflow: hidden; }
 
-/* line 13, ../scss/style.scss */
 header video {
   position: absolute;
   top: 50%;
@@ -20,12 +18,10 @@ header video {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%); }
 
-/* line 28, ../scss/style.scss */
 header .container {
   position: relative;
   z-index: 2; }
 
-/* line 33, ../scss/style.scss */
 header .overlay {
   position: absolute;
   top: 0;
@@ -36,7 +32,6 @@ header .overlay {
   opacity: 0.5;
   z-index: 1; }
 
-/* line 48, ../scss/style.scss */
 .parallax {
   /* The image used */
   background-image: url("../img/headerParalax.jpg");
@@ -48,8 +43,18 @@ header .overlay {
   background-repeat: no-repeat;
   background-size: cover; }
 
-/* line 65, ../scss/style.scss */
 .anuncio {
   background-color: rgba(255, 255, 255, 0.5); }
+
+.centrado-h-v {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 /*# sourceMappingURL=style.css.map */
