@@ -9,13 +9,17 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
 ?>
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atención Psicológica - UTFV</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
 </head>
+
 <body>
     <div class="containe-fluid">
         <div id="app">
@@ -52,7 +56,7 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
                         ?>
                     </div>
                     <!-- CONTENIDO -->
-                     <?php include 'assets/inc/footer.inc'; ?>
+                    <?php include 'assets/inc/footer.inc'; ?>
                 </div>
             </div>
         </div>
@@ -60,5 +64,10 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
+
 </html>
