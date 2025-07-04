@@ -57,4 +57,10 @@ header .overlay {
       -ms-flex-align: center;
           align-items: center; }
 
+/* Estilos para asegurar que el iframe del plugin de Facebook ocupe todo el ancho disponible */
+.fb-page,
+.fb-page span,
+.fb-page iframe {
+  width: 100% !important; }
+
 /*# sourceMappingURL=style.css.map */

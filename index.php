@@ -66,6 +66,7 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v19.0"></script>
     <script>
         new WOW().init();
     </script>
