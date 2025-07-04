@@ -27,7 +27,7 @@
                         <!-- Columna 1 -->
                         <div class="col-md-4">
                             <div class="row">
-                                <div class="col-12 wow animate__animated animate__bounce">
+                                <div class="col-12 wow animate__animated animate__fadeIn">
                                     <img src="img/logoPsicologia.png" class="img-fluid" alt="logo Psicología UTFV">
                                     <br><br>
                                 </div>
