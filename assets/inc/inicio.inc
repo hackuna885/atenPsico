@@ -31,7 +31,7 @@
                                     <img src="img/logoPsicologia.png" class="img-fluid" alt="logo Psicología UTFV">
                                     <br><br>
                                 </div>
-                                <div class="col-12 anuncio rounded py-3 wow animate__animated animate__bounceInLeft">
+                                <div class="col-12 anuncio rounded py-3 wow animate__animated animate__bounceInLeft hvr-grow">
                                     <h3>Plática de inducción para pacientes de primera vez.</h3>
                                     <small class="text-muted"><em>Todos los lunes a las 11:00 am y 4:00 pm.</em></small>
                                     <img src="img/charla1erVez.png" class="img-fluid" alt="">
@@ -42,12 +42,12 @@
                         <!-- Columna 1 -->
                         <!-- Columna 2 -->
                         <div class="col-md-4">
-                            <div class="col-12 wow animate__animated animate__bounceInDown"">
+                            <div class="col-12 wow animate__animated animate__bounceInDown hvr-grow">
                                 <h2>¿Cómo registrarme por primera vez?</h2>
                                 <small class="text-muted"><em>Lunes 19 de Mayo 2025</em></small>
                                 <p>¿Es tu primera visita? Mira este video y descubre cómo registrarte fácilmente para recibir atención psicológica.</p>
                             </div>
-                            <div class="col-12 anuncio rounded py-3 wow animate__animated animate__bounceInUp">
+                            <div class="col-12 anuncio rounded py-3 wow animate__animated animate__bounceInRight hvr-grow">
                                 <h3>Plática “La importancia del cuidado de mis emociones”</h3>
                                 <small class="text-muted"><em>Miércoles21 de Mayo 2025</em></small>
                                 <img src="img/charla2.png" class="img-fluid" alt="">
@@ -56,7 +56,7 @@
                         </div>
                         <!-- Columna 2 -->
                         <!-- Columna 3 -->
-                        <div class="col-md-4 wow animate__animated animate__bounceInUp">
+                        <div class="col-md-4 wow animate__animated animate__bounceInUp hvr-grow">
                             <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
                             <img src="img/imgEjemplo_342x216.png" class="img-fluid" alt="">
                             <small class="text-muted"><em>Todos los lunes a las 11:00 am y 4:00 pm.</em></small>

@@ -17,6 +17,7 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/hover.css">
     <link rel="icon" href="favicon.ico?v=2" type="image/x-icon">
 </head>
 

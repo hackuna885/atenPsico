@@ -1,7 +1,7 @@
 <!-- Inicia Footer -->
 <footer class="bg-dark text-white pt-5 pb-4 px-5">
     <div class="container text-center text-md-start">
-        <div class="row text-center text-md-start">
+        <div class="row text-center text-md-start wow animate__animated wow animate__animated animate__bounceInDown">
 
             <!-- Columna 1: Información de la empresa -->
             <div class="col-md-4 mx-auto mt-3">
