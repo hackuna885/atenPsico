@@ -53,6 +53,10 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
                             case 'politicaPrivacidad':
                                 include 'assets/inc/politicaPrivacidad.inc';
                                 break;
+
+                            case 'condicionesServicio':
+                                include 'assets/inc/condicionesServicio.inc';
+                                break;
                             
                             default:
                                 include 'assets/inc/inicio.inc';

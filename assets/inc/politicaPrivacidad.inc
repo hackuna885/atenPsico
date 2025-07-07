@@ -7,7 +7,7 @@
             <br>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 mx-auto" style="text-align: justify;">
+                    <div class="col-md-8 mx-auto text-secondary" style="text-align: justify;">
                         <h1>Política de Privacidad</h1>
                         <br>
                         <p><strong>Generador de Citas de Atención Psicológica</strong></p>
@@ -33,11 +33,11 @@
                         </div>
             
                         <div class="section">
-                            <h4>1. Información que Recopilamos</h4>
+                            <h4 class="my-5">1. Información que Recopilamos</h4>
                             <p>Para operar la Aplicación y proporcionarte nuestros servicios, necesitamos recopilar cierta
                                 información sobre ti.</p>
             
-                            <h3>1.1 Información que nos Proporcionas Directamente:</h3>
+                            <h5 class="my-4">1.1 Información que nos Proporcionas Directamente:</h5>
                             <ul>
                                 <li>
                                     <strong>Datos de Registro:</strong> Cuando creas una cuenta, recopilamos tu nombre, dirección de
@@ -69,7 +69,7 @@
                                 </li>
                             </ul>
             
-                            <h3>1.2 Información que Recopilamos Automáticamente:</h3>
+                            <h5 class="my-4">1.2 Información que Recopilamos Automáticamente:</h5>
                             <ul>
                                 <li><strong>Datos de Uso:</strong> Recopilamos información sobre cómo interactúas con la Aplicación.
                                 </li>
@@ -81,13 +81,13 @@
                                     nuestra Aplicación.</li>
                             </ul>
             
-                            <h3>1.3 Información de Terceros:</h3>
+                            <h5 class="my-4">1.3 Información de Terceros:</h5>
                             <p>Si accedes a la Aplicación a través de un servicio de terceros (ej., Google Login), podemos recopilar
                                 información de ese servicio.</p>
                         </div>
             
                         <div class="section">
-                            <h4>2. Cómo Utilizamos tu Información</h4>
+                            <h4 class="my-5">2. Cómo Utilizamos tu Información</h4>
                             <ul>
                                 <li><strong>Para Operar y Mantener la Aplicación:</strong> Crear y gestionar tu cuenta, personalizar
                                     tu experiencia, etc.</li>
@@ -103,7 +103,7 @@
                         </div>
             
                         <div class="section">
-                            <h4>3. Cómo Compartimos tu Información</h4>
+                            <h4 class="my-5">3. Cómo Compartimos tu Información</h4>
                             <p>Tu privacidad es fundamental. Solo compartimos tu información en las siguientes circunstancias:</p>
                             <ul>
                                 <li>Con otros usuarios (ej., información pública en tu perfil).</li>
@@ -115,19 +115,19 @@
                         </div>
             
                         <div class="section">
-                            <h4>4. Retención de Datos</h4>
+                            <h4 class="my-5">4. Retención de Datos</h4>
                             <p>Retenemos tu información personal mientras sea necesaria para proporcionarte los servicios y cumplir
                                 con obligaciones legales.</p>
                         </div>
             
                         <div class="section">
-                            <h4>5. Seguridad de la Información</h4>
+                            <h4 class="my-5">5. Seguridad de la Información</h4>
                             <p>Implementamos medidas de seguridad técnicas, administrativas y físicas para proteger tu información
                                 personal.</p>
                         </div>
             
                         <div class="section">
-                            <h4>6. Tus Derechos de Privacidad</h4>
+                            <h4 class="my-5">6. Tus Derechos de Privacidad</h4>
                             <ul>
                                 <li>Derecho de Acceso</li>
                                 <li>Derecho de Rectificación</li>
@@ -140,17 +140,17 @@
                         </div>
             
                         <div class="section">
-                            <h4>7. Privacidad de los Niños</h4>
+                            <h4 class="my-5">7. Privacidad de los Niños</h4>
                             <p>La Aplicación no está dirigida a personas menores de 18 años.</p>
                         </div>
             
                         <div class="section">
-                            <h4>8. Cambios en Esta Política de Privacidad</h4>
+                            <h4 class="my-5">8. Cambios en Esta Política de Privacidad</h4>
                             <p>Podemos actualizar esta Política ocasionalmente. Te notificaremos cualquier cambio significativo.</p>
                         </div>
             
                         <div class="section">
-                            <h4>9. Contáctanos</h4>
+                            <h4 class="my-5">9. Contáctanos</h4>
                             <p>Si tienes alguna pregunta, contáctanos en:</p>
                             <p><strong>Correo electrónico:</strong> aten.psico.utfv@gmail.com</p>
                         </div>

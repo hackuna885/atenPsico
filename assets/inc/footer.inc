@@ -39,6 +39,7 @@
                 <div class="centrado-h-v ">                    
                     <ul style="text-align: left; font-size: .8em;">
                         <li><a href="menu.aspx?id=politicaPrivacidad">Política de Privacidad</a></li>
+                        <li><a href="menu.aspx?id=condicionesServicio">Condiciones del Servicio</a></li>
                     </ul>
                 </div>
             </div>
