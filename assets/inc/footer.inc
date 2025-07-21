@@ -35,6 +35,13 @@
             <div class="col-md-4  mx-auto mt-3">
                 <h6 class="mb-4 font-weight-bold text-success">¡Síguenos en Redes Sociales!</h6>
                 <p class="text-left" style="font-size: .8em;";>Conéctate con nosotros y mantente al día con las últimas noticias, eventos y recursos. Sé parte de nuestra comunidad y accede a contenido exclusivo para tu bienestar.</p>
+                <br>
+                <div class="centrado-h-v ">                    
+                    <ul style="text-align: left; font-size: .8em;">
+                        <li><a href="menu.aspx?id=politicaPrivacidad">Política de Privacidad</a></li>
+                        <li><a href="menu.aspx?id=condicionesServicio">Condiciones del Servicio</a></li>
+                    </ul>
+                </div>
             </div>
 
         </div>
