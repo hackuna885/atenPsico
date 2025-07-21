@@ -5,7 +5,7 @@
             <br>
             <br>
             <div class="iframe-full" style="margin: 0px; padding: 0px; height: 100%; overflow: hidden;">
-                <iframe src="http://localhost/cuePsico2/#/web-login" frameborder="0" style="border: none; width: 100%; height: 100vh; min-height: 900px;"></iframe>
+                <iframe src="https://utfv.net/cuePsico2/#/web-login" frameborder="0" style="border: none; width: 100%; height: 100vh; min-height: 900px;"></iframe>
             </div>
         </div>
     </div>
